@@ -5,7 +5,7 @@ echo "开始时间：${time}"
 
 # 开始执行
 #redis-cli -p 3310 -a password --eval getUnusedData.lua > keys.txt
-redisCom="redis-cli -p 3310 -a haibian1qazxsw2"
+redisCom="redis-cli -p 3310 -a password"
 start=0
 fileNamePre="unUseData_"
 
